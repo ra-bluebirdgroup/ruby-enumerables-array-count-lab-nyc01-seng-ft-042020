@@ -6,6 +6,7 @@ def count_strings(array)
      array.pop
    end
 array.length
+puts array
 end
 end
 
