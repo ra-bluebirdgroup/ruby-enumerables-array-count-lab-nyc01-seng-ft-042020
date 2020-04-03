@@ -1,3 +1,4 @@
+require ' pry'
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
   array.count do |i|
@@ -5,8 +6,9 @@ def count_strings(array)
     if !i.is_a?(String)
      array.pop
    end
-   array.length
+
 end
+ array.length
 end
 
 def count_empty_strings(array)
