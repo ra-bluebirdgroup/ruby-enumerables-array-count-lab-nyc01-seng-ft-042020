@@ -7,7 +7,7 @@ array.count do |str|
     new_array << str
   end
 end
-new_array
+new_array.length
 end
 
 def count_empty_strings(array)
