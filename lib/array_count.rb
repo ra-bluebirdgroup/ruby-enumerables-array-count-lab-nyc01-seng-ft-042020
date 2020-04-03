@@ -4,9 +4,8 @@ def count_strings(array)
     new_array = []
     if i.is_a(String) || i == "" || i == " "
      new_array << i
-   end
-new_array.length
-
+   end 
+   new_array
 end
 end
 
