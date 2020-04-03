@@ -6,7 +6,6 @@ def count_strings(array)
     if !i.is_a?(String)
      array.pop
    end
-
 end
  array.length
 end
