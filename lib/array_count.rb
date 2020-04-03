@@ -16,6 +16,6 @@ def count_empty_strings(array)
     if i == "" || " "
     array.pop
    end
-  new_array.length
+  array.length
 end
 end
