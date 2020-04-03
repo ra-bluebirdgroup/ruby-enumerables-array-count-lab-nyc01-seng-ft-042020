@@ -6,6 +6,7 @@ def count_strings(array)
     if !i == "" || !i == " "
      array.pop(i)
    end
+    array.length
 end
  array.length
 end
