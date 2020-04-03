@@ -3,7 +3,7 @@ def count_strings(array)
   array.count do |i|
     new_array = []
     if i.is_a?(String)
-     array.pop
+     new_array << i
    end
 array.length
 end
