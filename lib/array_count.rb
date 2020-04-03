@@ -6,7 +6,7 @@ array.count do |str|
   if str.is_a?(String)
     new_array << str
   end
-  new_array
+  new_array.length
 
 
 
