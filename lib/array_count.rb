@@ -5,7 +5,7 @@ def count_strings(array)
     if i == "" || " "
      new_array << i
    end
-new_array.size
+new_array.length
 
 end
 end
