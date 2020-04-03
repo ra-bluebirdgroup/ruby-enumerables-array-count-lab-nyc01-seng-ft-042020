@@ -4,7 +4,7 @@ def count_strings(array)
     new_array = []
     if i.is_a(String) || i == "" || i == " "
      new_array << i
-   end 
+   end
    new_array
 end
 end
