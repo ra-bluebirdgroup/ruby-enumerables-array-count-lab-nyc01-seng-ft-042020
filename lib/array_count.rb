@@ -4,7 +4,7 @@ def count_strings(array)
   array.count do |i|
     new_array = []
     if !i == "" || !i == " "
-     array.pop(i)
+     array.collect(i)
    end
     array.length
 end
