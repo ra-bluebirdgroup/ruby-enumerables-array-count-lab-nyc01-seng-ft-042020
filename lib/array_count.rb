@@ -2,7 +2,7 @@ def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
   array.count do |i|
     new_array = []
-    if i.is_a(Integer)
+    if i.is_a?(Integer)
      array.pop
    end
 array
