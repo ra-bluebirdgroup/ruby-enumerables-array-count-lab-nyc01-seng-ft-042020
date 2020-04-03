@@ -6,13 +6,8 @@ array.count do |str|
   if str.is_a?(String)
     new_array << str
   end
-  new_array.length
-
-
-
-}
-
-
+end
+new_array
 end
 
 def count_empty_strings(array)
