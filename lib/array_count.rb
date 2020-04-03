@@ -5,7 +5,7 @@ def count_strings(array)
     if i.is_a?(String)
      new_array << i
    end
-new_array
+new_array.length
 end
 end
 
@@ -16,6 +16,6 @@ def count_empty_strings(array)
     if i == "" || " "
     new_array  << i
    end
-  new_array
+  new_array.length
 end
 end
