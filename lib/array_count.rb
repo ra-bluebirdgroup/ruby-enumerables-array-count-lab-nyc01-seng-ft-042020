@@ -18,6 +18,6 @@ def count_empty_strings(array)
       new_array << str
     end
   end
-  
-  new_array.length
+
+  new_array
 end
