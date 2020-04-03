@@ -5,7 +5,7 @@ def count_strings(array)
     if i.is_a?(Integer)
      array.pop
    end
-array.length
+array.size
 
 end
 end
